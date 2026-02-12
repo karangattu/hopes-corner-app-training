@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "slides.html#the-most-secretive-recipe-at-hopes-corner",
+    "href": "slides.html#the-most-secretive-recipe-at-hopes-corner",
+    "title": "Hope’s Corner App Training",
+    "section": "The most secretive recipe at Hope’s Corner",
+    "text": "The most secretive recipe at Hope’s Corner\nMiguel’s famous mole recipe"
+  },
+  {
+    "objectID": "slides.html#miguel-writes-his-recipe-in-this-book",
+    "href": "slides.html#miguel-writes-his-recipe-in-this-book",
+    "title": "Hope’s Corner App Training",
+    "section": "Miguel writes his recipe in this book",
+    "text": "Miguel writes his recipe in this book"
+  },
+  {
+    "objectID": "slides.html#every-change-being-made-is-tracked-on-a-separate-page",
+    "href": "slides.html#every-change-being-made-is-tracked-on-a-separate-page",
+    "title": "Hope’s Corner App Training",
+    "section": "Every change being made is tracked on a separate page",
+    "text": "Every change being made is tracked on a separate page\nThis is the concept of version control. Every change is a commit."
+  },
+  {
+    "objectID": "slides.html#the-recipe-to-be-used-is-bookmarked.",
+    "href": "slides.html#the-recipe-to-be-used-is-bookmarked.",
+    "title": "Hope’s Corner App Training",
+    "section": "The recipe to be used is bookmarked.",
+    "text": "The recipe to be used is bookmarked.\nThis is the concept of a release."
+  },
+  {
+    "objectID": "slides.html#if-caleb-wants-to-tweak-the-recipe-he-will-make-a-copy-of-the-recipe-and-make-his-changes-there.",
+    "href": "slides.html#if-caleb-wants-to-tweak-the-recipe-he-will-make-a-copy-of-the-recipe-and-make-his-changes-there.",
+    "title": "Hope’s Corner App Training",
+    "section": "If Caleb wants to tweak the recipe, he will make a copy of the recipe and make his changes there.",
+    "text": "If Caleb wants to tweak the recipe, he will make a copy of the recipe and make his changes there.\nThis is the concept of a branch."
+  },
+  {
+    "objectID": "slides.html#if-that-recipe-turns-out-to-be-better-miguel-can-merge-calebs-changes-into-the-original-recipe.",
+    "href": "slides.html#if-that-recipe-turns-out-to-be-better-miguel-can-merge-calebs-changes-into-the-original-recipe.",
+    "title": "Hope’s Corner App Training",
+    "section": "If that recipe turns out to be better, Miguel can merge Caleb’s changes into the original recipe.",
+    "text": "If that recipe turns out to be better, Miguel can merge Caleb’s changes into the original recipe.\nThis is the concept of a pull request."
+  },
+  {
+    "objectID": "slides.html#how-do-these-concepts-fit-to-the-hopes-corner-app",
+    "href": "slides.html#how-do-these-concepts-fit-to-the-hopes-corner-app",
+    "title": "Hope’s Corner App Training",
+    "section": "How do these concepts fit to the Hope’s Corner App?",
+    "text": "How do these concepts fit to the Hope’s Corner App?\nWe store the recipe (code) in GitHub."
+  },
+  {
+    "objectID": "slides.html#how-do-people-eat-the-recipe",
+    "href": "slides.html#how-do-people-eat-the-recipe",
+    "title": "Hope’s Corner App Training",
+    "section": "How do people eat the recipe?",
+    "text": "How do people eat the recipe?\nWe need to cook the food (deploy the app) so that people can eat (use the app).\nWe deploy the app to Vercel"
+  },
+  {
+    "objectID": "slides.html#where-do-we-store-all-the-data",
+    "href": "slides.html#where-do-we-store-all-the-data",
+    "title": "Hope’s Corner App Training",
+    "section": "Where do we store all the data?",
+    "text": "Where do we store all the data?\nLike an order log of people who ate the mole, we store all the data in a database called Supabase."
+  }
+]

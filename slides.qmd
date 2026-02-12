@@ -1,0 +1,64 @@
+---
+title: "Hope's Corner App Training"
+author: "Karan Gathani"
+date: 2026-02-12
+date-format: short
+format:
+  revealjs:
+    multiplex: true
+    css: assets/css/reveal-h2-smaller.css
+---
+
+## The most secretive recipe at Hope's Corner
+
+Miguel's famous mole recipe
+
+![](assets/miguel_cooking_mole.png)
+
+## Miguel writes his recipe in this book
+
+![](assets/mole_recipe.png)
+
+## Every change being made is tracked on a separate page
+
+This is the concept of version control. Every change is a **commit**.
+
+![](assets/making_commits.png)
+
+## The recipe to be used is bookmarked.
+
+This is the concept of a **release**.
+
+![](assets/bookmark_recipe.png)
+
+## If Caleb wants to tweak the recipe, he will make a copy of the recipe and make his changes there.
+
+This is the concept of a **branch**.
+
+![](assets/caleb_recipe.png)
+
+## If that recipe turns out to be better, Miguel can merge Caleb's changes into the original recipe.
+
+This is the concept of a **pull request**.
+
+![](assets/new_recipe_final.png)
+
+## How do these concepts fit to the Hope's Corner App?
+
+We store the recipe (code) in GitHub.
+
+![](assets/github_logo.png)
+
+## How do people eat the recipe?
+
+We need to cook the food _(deploy the app)_ so that people can eat _(use the app)_.
+
+### We deploy the app to **Vercel**
+
+![](assets/vercel_logo.png)
+
+## Where do we store all the data?
+
+Like an order log of people who ate the mole, we store all the data in a database called **Supabase**.
+
+![](assets/supbase_logo.png)

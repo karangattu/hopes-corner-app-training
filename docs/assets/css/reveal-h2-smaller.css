@@ -1,0 +1,17 @@
+/* Make H2 headings much smaller on Reveal.js slides */
+.reveal .slides h2,
+.reveal h2 {
+  font-size: 2.25rem !important; /* much smaller than the default */
+  line-height: 1.2 !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  font-weight: 600 !important;
+}
+
+/* Slightly smaller on narrow screens */
+@media (max-width: 600px) {
+  .reveal .slides h2,
+  .reveal h2 {
+    font-size: 2rem !important;
+  }
+}
