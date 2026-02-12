@@ -27,38 +27,129 @@ This is the concept of version control. Every change is a **commit**.
 
 ## The recipe to be used is bookmarked.
 
-This is the concept of a **release**.
-
 ![](assets/bookmark_recipe.png)
+
+::: {.fragment}
+This is the concept of a **release**.
+:::
+
 
 ## If Caleb wants to tweak the recipe, he will make a copy of the recipe and make his changes there.
 
-This is the concept of a **branch**.
 
 ![](assets/caleb_recipe.png)
 
+::: {.fragment}
+This is the concept of a **branch**.
+:::
+
 ## If that recipe turns out to be better, Miguel can merge Caleb's changes into the original recipe.
 
+::: {.fragment}
 This is the concept of a **pull request**.
 
 ![](assets/new_recipe_final.png)
+:::
 
 ## How do these concepts fit to the Hope's Corner App?
 
-We store the recipe (code) in GitHub.
-
 ![](assets/github_logo.png)
+
+::: {.fragment}
+We store the recipe (code) in GitHub.
+:::
 
 ## How do people eat the recipe?
 
-We need to cook the food _(deploy the app)_ so that people can eat _(use the app)_.
+::: {.fragment}
+We need to cook the food _(deploy the code)_ so that people can eat _(use the app)_.
 
 ### We deploy the app to **Vercel**
+:::
 
+::: {.fragment}
 ![](assets/vercel_logo.png)
+:::
 
 ## Where do we store all the data?
 
+::: {.fragment}
 Like an order log of people who ate the mole, we store all the data in a database called **Supabase**.
+:::
 
+::: {.fragment}
 ![](assets/supbase_logo.png)
+:::
+
+## So where is the code stored on GitHub?
+
+::: {.fragment}
+Code is stored over [here](https://github.com/hopescorner/hopes-corner-app)
+:::
+
+
+::: {.fragment}
+The **code** is publicly available, the **data** is not.
+:::
+
+::: {.fragment}
+![](assets/github_repo.png)
+:::
+
+## How do we make changes to the code?
+
+Create an issue on GitHub and select Feature Request.
+
+::: {.fragment}
+![](assets/issue_github.png)
+:::
+
+## Add all details about the change you want to make in the feature request
+
+![](assets/create_issue.png)
+
+## Assign the issue to Copilot
+
+::: {.fragment}
+![](assets/assign_to_copilot.png)
+:::
+
+## Watch TikTok for 10 minutes while Copilot works
+
+::: {.fragment .center-gif}
+![](assets/miguel_as_a_kid.gif)
+:::
+
+## Verify the changes on staging deployment
+
+::: {.fragment}
+![](assets/deployment_successful.png)
+:::
+
+## Mark the pull request as ready for review
+
+::: {.fragment}
+![](assets/ready_for_review.png)
+:::
+
+## Make sure its green all the way through
+
+::: {.fragment}
+![](assets/green_checks.png)
+:::
+
+## Merge the pull request
+
+::: {.fragment}
+![](assets/ready_to_merge.png)
+:::
+
+## Celebrate the new feature you just added to the app!
+
+::: {.fragment .center-gif}
+![](assets/cheer-kid.gif)
+:::
+
+## Questions?
+
+If none, we will start with a hands-on session.
